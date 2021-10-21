@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MORE TEAM ^^</title>
+    <meta charset="utf-8" />
+    <!--for page logo -->
+    <!-- <link rel="shortcut icon" href="favicon.png" /> -->
+    <!--for stylesheet -->
+    <link rel="stylesheet" href="CSS/style.css" type="text/css" />
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="easy_game">
+    <button class="pause">
+      <img class="pause_img" src="imges/692664_multimedia_512x512.png" />
+      <img class="stop_img" src="imges/219-128.png" />
+    </button>
+    <!-- <div class="show">hi</div> -->
+    <h1 id="gameMode">Easy Mode</h1>
+    <button class="btn_start">
+      <a href="#start_gam_position"> Start Now</a>
+    </button>
+    <div class="yourName" id="start_gam_position">
+      <input type="text" placeholder=" Enter your name" />
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Pleaze check your Name</h2>
+        </div>
+      </div>
+    </div>
+    <div class="outer_content">
+      <div class="info">
+        <div class="counter">
+          <span
+            >Score :<input type="text" class="score_val" value="0" disabled />
+          </span>
+        </div>
+        <div class="Timer">
+          <span>Time :<span class="clock">121</span> </span>
+        </div>
+      </div>
+
+      <div id="gameSpace" class="content">
+        <div class="perent">
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+          <div class="inner-div"></div>
+        </div>
+        <div id="box_scor"></div>
+      </div>
+      <a href="home.html"><button class="back">&leftarrow;</button></a>
+    </div>
+    <div class="card">
+      <span class="fail">Good Luke !</span>
+      <span class="win"> Gongratulation </span>
+      <h1>Thanks <input type="text" value="" class="namee" /> ♥</h1>
+      <p>Your Score is : <input type="text" value="" class="scoree" /></p>
+      <p>If you want start again you can back to Home &smile;</p>
+      <a href="home.html"><button class="btn_back">Back To Home</button></a>
+    </div>
+
+    <script src="JS/jquery-3.2.1.js"></script>
+    <script src="JS/MyFn.js"></script>
+    <script src="JS/ourFunctions.js"></script>
+    <script src="JS/js.js"></script>
+  </body>
+</html>
